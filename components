@@ -1,0 +1,24 @@
+the various components of hadoop 1x are
+hdfs
+mapreduce
+Master node
+Slave node
+hdfs
+it is the file system used by hadoop 1x it is distributed file system
+mapreduce
+map reduce is a java program which runs in hadoop 
+it consist of a mapper which split data into key value pair
+and reducer which reduces the mapper out put
+in between there is shuffel and sort which sort and suffle all the output of mapper
+the master node consist of 
+job tracker 
+name node
+
+job tracker
+it is used to assign ap reduce to task tracker
+name node 
+it contrals the data nodes check for its avaiablity for space and name spaces
+
+slavve nodes are connectedd to the master node consist of data nodes and task tracker
+the task tracker performs mapreduce on datta nodes in slave machine
+data nodes consist of large amount of data stored as blocks
